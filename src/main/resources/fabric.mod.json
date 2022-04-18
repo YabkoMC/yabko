@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "yabko",
+  "version": "${version}",
+
+  "name": "Yabko",
+  "description": "Some server stuff",
+  "authors": [
+    "Braunly"
+  ],
+  "contact": {
+    "homepage": "https://yabko.org/",
+    "sources": "https://github.com/YabkoMC/yabko"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/yabko/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "org.yabko.yabko.YabkoMod"
+    ]
+  },
+  "mixins": [
+    "yabko.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  }
+}
